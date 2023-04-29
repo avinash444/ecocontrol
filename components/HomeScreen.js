@@ -18,7 +18,7 @@ const HomeScreen = () => {
                 <DirectionButtons/>
             </View>
             <View style={styles.emergencyButtonStyl}>
-                <Button title={"emergency"} color={"#fff"}/>
+                <Button title={"emergency"} color="#ff0000"/>
             </View>
         </View>
     )
@@ -52,8 +52,6 @@ const styles = StyleSheet.create({
     emergencyButtonStyl: {
         borderRadius: 50,
         marginTop:  10,
-        marginRight: 250,
-        backgroundColor: "#ff0000"
     }
 })
 export default HomeScreen;
